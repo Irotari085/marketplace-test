@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="РўРѕРІР°СЂ вЂ” TerrasMarket" />
+  <title>РўРѕРІР°СЂ вЂ” TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+          <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">РџСЂРѕРґР°С‚СЊ</a>
+        <a href="user.html">РџСЂРѕС„РёР»СЊ</a>
+        <a class="cart-link" href="cart.html">РљРѕСЂР·РёРЅР°</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>Noctira Lamp</h2>
+          <p>РЎРѕРІСЂРµРјРµРЅРЅС‹Р№ СЃРІРµС‚РёР»СЊРЅРёРє РґР»СЏ РёРЅС‚РµСЂСЊРµСЂР° РІ СЃС‚РёР»Рµ Р»РѕС„С‚ Рё С…Р°Р№-С‚РµРє.</p>
+        </div>
+      </section>
+
+      <section class="item-grid">
+        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=900&q=80" alt="Noctira Lamp" />
+        <div class="content-panel">
+          <p class="panel-label">РђРІС‚РѕСЂСЃРєРёР№ С‚РѕРІР°СЂ</p>
+          <p class="panel-price">16 400 в‚Ѕ</p>
+          <p>Р›Р°РјРїР° Noctira СЃРѕР·РґР°РЅР° РґР»СЏ СЃРѕРІСЂРµРјРµРЅРЅС‹С… РіРѕСЃС‚РёРЅРѕР№ Рё РѕС„РёСЃРѕРІ. Р›РµРіРєР°СЏ СЂРµРіСѓР»РёСЂРѕРІРєР° СЏСЂРєРѕСЃС‚Рё Рё СЃС‚РёР»СЊРЅС‹Р№ РєРѕСЂРїСѓСЃ.</p>
+          <div class="product-meta">
+            <a class="button primary" href="cart.html">Р’ РєРѕСЂР·РёРЅСѓ</a>
+            <a class="button secondary" href="user.html">РљРѕРЅС‚Р°РєС‚С‹ РїСЂРѕРґР°РІС†Р°</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ Р°РІС‚РѕСЂСЃРєРѕР№ РїСЂРѕРґСѓРєС†РёРё</p>
+          <p>В© 2026 TerrasMarket. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+        <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+        <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

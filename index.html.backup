@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="Р“Р»Р°РІРЅР°СЏ вЂ” TerrasMarket" />
+  <title>TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+          <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">РџСЂРѕРґР°С‚СЊ</a>
+        <a href="user.html">РџСЂРѕС„РёР»СЊ</a>
+        <a class="cart-link" href="cart.html">РљРѕСЂР·РёРЅР°</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="hero-badge">РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ РґРµРєРѕСЂР° Рё РѕСЃРІРµС‰РµРЅРёСЏ</span>
+          <h1>РќР°Р№РґРёС‚Рµ СѓРЅРёРєР°Р»СЊРЅС‹Р№ С‚РѕРІР°СЂ РёР»Рё СЂР°Р·РјРµСЃС‚РёС‚Рµ РѕР±СЉСЏРІР»РµРЅРёРµ Р·Р° РјРёРЅСѓС‚Сѓ</h1>
+          <p class="hero-text">TerrasMarket РѕР±СЉРµРґРёРЅСЏРµС‚ РјР°СЃС‚РµСЂРѕРІ Рё РїРѕРєСѓРїР°С‚РµР»РµР№: РІС‹Р±РѕСЂ, РїСЂРѕРґР°Р¶Рё Рё СѓРїСЂР°РІР»РµРЅРёРµ Р·Р°РєР°Р·Р°РјРё РёР· Р»РёС‡РЅРѕРіРѕ РєР°Р±РёРЅРµС‚Р°.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="products.html">РљР°С‚Р°Р»РѕРі</a>
+            <a class="button secondary" href="create.html">Р Р°Р·РјРµСЃС‚РёС‚СЊ С‚РѕРІР°СЂ</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1 200+</strong><span>С‚РѕРІР°СЂРѕРІ</span></div>
+            <div><strong>24</strong><span>РєР°С‚РµРіРѕСЂРёРё</span></div>
+            <div><strong>24/7</strong><span>РїРѕРґРґРµСЂР¶РєР°</span></div>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&q=80" alt="Marketplace hero" />
+          <div class="hero-panel-copy">
+            <p class="panel-label">РҐРёС‚ РїСЂРѕРґР°Р¶</p>
+            <h2>Р›Р°РјРїР° Nebula</h2>
+            <p>РђРІС‚РѕСЂСЃРєРѕРµ РѕСЃРІРµС‰РµРЅРёРµ РґР»СЏ СЃС‚РёР»СЊРЅС‹С… РёРЅС‚РµСЂСЊРµСЂРѕРІ.</p>
+            <p class="panel-price">24 500 в‚Ѕ</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-head">
+        <div>
+          <h2>РџРѕРїСѓР»СЏСЂРЅС‹Рµ РєР°С‚РµРіРѕСЂРёРё</h2>
+          <p>Р’С‹Р±РёСЂР°Р№С‚Рµ С‚РѕРІР°СЂС‹ РїРѕ СЃС‚РёР»СЋ Рё РЅР°Р·РЅР°С‡РµРЅРёСЋ.</p>
+        </div>
+        <a class="button secondary" href="products.html">Р’РµСЃСЊ РєР°С‚Р°Р»РѕРі</a>
+      </section>
+
+      <section class="category-grid">
+        <article class="category-card">
+          <h3>РћСЃРІРµС‰РµРЅРёРµ</h3>
+          <p>РџРѕРґРІРµСЃРЅС‹Рµ, РЅР°СЃС‚РѕР»СЊРЅС‹Рµ Рё РЅР°РїРѕР»СЊРЅС‹Рµ СЃРІРµС‚РёР»СЊРЅРёРєРё.</p>
+        </article>
+        <article class="category-card">
+          <h3>РњРµР±РµР»СЊ</h3>
+          <p>РЎС‚РѕР»С‹, РєСЂРµСЃР»Р° Рё РїСЂРµРґРјРµС‚С‹ РґР»СЏ СѓСЋС‚РЅРѕРіРѕ РёРЅС‚РµСЂСЊРµСЂР°.</p>
+        </article>
+        <article class="category-card">
+          <h3>Р”РµРєРѕСЂ</h3>
+          <p>РђРєСЃРµСЃСЃСѓР°СЂС‹, РєР°СЂС‚РёРЅС‹ Рё С‚РµРєСЃС‚РёР»СЊ РґР»СЏ Р·Р°РІРµСЂС€РµРЅРЅРѕРіРѕ РѕР±СЂР°Р·Р°.</p>
+        </article>
+      </section>
+
+      <section class="product-grid featured-products">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Aura Lamp" />
+          <div class="product-info">
+            <h3>Aura Lamp</h3>
+            <p>РњРёРЅРёРјР°Р»РёСЃС‚РёС‡РЅР°СЏ Р»Р°РјРїР° СЃ РјСЏРіРєРёРј СЃРІРµС‡РµРЅРёРµРј.</p>
+            <div class="product-meta">
+              <span class="price">12 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=900&q=80" alt="Noctira Lamp" />
+          <div class="product-info">
+            <h3>Noctira Lamp</h3>
+            <p>Р¤СѓС‚СѓСЂРёСЃС‚РёС‡РµСЃРєР°СЏ С„РѕСЂРјР° СЃ РјР°С‚РѕРІС‹Рј СЃС‚РµРєР»РѕРј.</p>
+            <div class="product-meta">
+              <span class="price">16 400 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=900&q=80" alt="Soft Chair" />
+          <div class="product-info">
+            <h3>Soft Chair</h3>
+            <p>РљРѕРјС„РѕСЂС‚РЅРѕРµ РєСЂРµСЃР»Рѕ СЃ РѕР±С‚РµРєР°РµРјРѕР№ С„РѕСЂРјРѕР№.</p>
+            <div class="product-meta">
+              <span class="price">29 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=900&q=80" alt="Art Mirror" />
+          <div class="product-info">
+            <h3>Art Mirror</h3>
+            <p>Р—РµСЂРєР°Р»Рѕ СЃ С‚РµРєСЃС‚СѓСЂРёСЂРѕРІР°РЅРЅРѕР№ СЂР°РјРѕР№ Рё РїРѕРґРІРµСЃРєРѕР№.</p>
+            <div class="product-meta">
+              <span class="price">8 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ Р°РІС‚РѕСЂСЃРєРѕР№ РїСЂРѕРґСѓРєС†РёРё</p>
+          <p>В© 2026 TerrasMarket. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+        <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

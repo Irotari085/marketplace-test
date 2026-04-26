@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="РћС„РѕСЂРјР»РµРЅРёРµ Р·Р°РєР°Р·Р° вЂ” TerrasMarket" />
+  <title>РћС„РѕСЂРјР»РµРЅРёРµ Р·Р°РєР°Р·Р° вЂ” TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+          <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">РџСЂРѕРґР°С‚СЊ</a>
+        <a href="user.html">РџСЂРѕС„РёР»СЊ</a>
+        <a class="cart-link" href="cart.html">РљРѕСЂР·РёРЅР°</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>РћС„РѕСЂРјР»РµРЅРёРµ Р·Р°РєР°Р·Р°</h2>
+          <p>Р—Р°РїРѕР»РЅРёС‚Рµ РґР°РЅРЅС‹Рµ РґРѕСЃС‚Р°РІРєРё Рё РїРѕРґС‚РІРµСЂРґРёС‚Рµ РїРѕРєСѓРїРєСѓ.</p>
+        </div>
+      </section>
+
+      <section class="checkout-grid">
+        <div class="form-card">
+          <h3>Р”РѕСЃС‚Р°РІРєР°</h3>
+          <div class="form-group">
+            <label class="form-label" for="full-name">РРјСЏ РїРѕР»СѓС‡Р°С‚РµР»СЏ</label>
+            <input class="form-input" id="full-name" type="text" value="РђРЅРЅР° РРІР°РЅРѕРІР°" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="address">РђРґСЂРµСЃ</label>
+            <input class="form-input" id="address" type="text" value="РњРѕСЃРєРІР°, СѓР». РђСЂР±Р°С‚, 12" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">РўРµР»РµС„РѕРЅ</label>
+            <input class="form-input" id="phone" type="tel" value="+7 495 123-45-67" />
+          </div>
+          <div class="form-actions">
+            <button class="button primary">РџРѕРґС‚РІРµСЂРґРёС‚СЊ Р·Р°РєР°Р·</button>
+          </div>
+        </div>
+        <div class="summary-panel">
+          <article class="offer-card">
+            <h3>РС‚РѕРіРѕ</h3>
+            <p>РђСѓСЂР° Р›Р°РјРїР° В· 12 900 в‚Ѕ</p>
+            <p>Noctira Lamp В· 16 400 в‚Ѕ</p>
+            <p class="price">29 300 в‚Ѕ</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ Р°РІС‚РѕСЂСЃРєРѕР№ РїСЂРѕРґСѓРєС†РёРё</p>
+          <p>В© 2026 TerrasMarket. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+        <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+        <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="РљР°С‚Р°Р»РѕРі вЂ” TerrasMarket" />
+  <title>РљР°С‚Р°Р»РѕРі вЂ” TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+          <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">РџСЂРѕРґР°С‚СЊ</a>
+        <a href="user.html">РџСЂРѕС„РёР»СЊ</a>
+        <a class="cart-link" href="cart.html">РљРѕСЂР·РёРЅР°</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>РљР°С‚Р°Р»РѕРі С‚РѕРІР°СЂРѕРІ</h2>
+          <p>Р’С‹Р±РµСЂРёС‚Рµ С‚РѕРІР°СЂР° РёР· РїРѕРїСѓР»СЏСЂРЅС‹С… РєР°С‚РµРіРѕСЂРёР№ Рё РЅРѕРІС‹С… РїРѕСЃС‚СѓРїР»РµРЅРёР№.</p>
+        </div>
+        <a class="button secondary" href="create.html">Р”РѕР±Р°РІРёС‚СЊ С‚РѕРІР°СЂ</a>
+      </section>
+
+      <div class="tabs">
+        <button class="tab active">РћСЃРІРµС‰РµРЅРёРµ</button>
+        <button class="tab">РњРµР±РµР»СЊ</button>
+        <button class="tab">Р”РµРєРѕСЂ</button>
+        <button class="tab">РќРѕРІРёРЅРєРё</button>
+      </div>
+
+      <section class="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Aura Lamp" />
+          <div class="product-info">
+            <h3>Aura Lamp</h3>
+            <p>РЎРІРµС‚РёР»СЊРЅРёРє СЃ С‚РµРїР»С‹Рј РґРЅРµРІРЅС‹Рј СЃРІРµС‚РѕРј Рё Р±РµР»РѕР№ РѕС‚РґРµР»РєРѕР№.</p>
+            <div class="product-meta">
+              <span class="price">12 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?auto=format&fit=crop&w=900&q=80" alt="Noctira Lamp" />
+          <div class="product-info">
+            <h3>Noctira Lamp</h3>
+            <p>Р¤СѓС‚СѓСЂРёСЃС‚РёС‡РµСЃРєРёР№ РґРёР·Р°Р№РЅ СЃ СЌС„С„РµРєС‚РѕРј РјСЏРіРєРѕР№ РїРѕРґСЃРІРµС‚РєРё.</p>
+            <div class="product-meta">
+              <span class="price">16 400 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=900&q=80" alt="Soft Chair" />
+          <div class="product-info">
+            <h3>Soft Chair</h3>
+            <p>РљРѕРјС„РѕСЂС‚РЅРѕРµ РєСЂРµСЃР»Рѕ РґР»СЏ СЂР°Р±РѕС‡РµРіРѕ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёР»Рё Р·РѕРЅС‹ РѕС‚РґС‹С…Р°.</p>
+            <div class="product-meta">
+              <span class="price">29 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Art Mirror" />
+          <div class="product-info">
+            <h3>Art Mirror</h3>
+            <p>РЎРѕРІСЂРµРјРµРЅРЅРѕРµ Р·РµСЂРєР°Р»Рѕ СЃ С…СѓРґРѕР¶РµСЃС‚РІРµРЅРЅРѕР№ СЂР°РјРѕР№.</p>
+            <div class="product-meta">
+              <span class="price">8 900 в‚Ѕ</span>
+              <a class="link-muted" href="item.html">РџРѕРґСЂРѕР±РЅРµРµ</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ Р°РІС‚РѕСЂСЃРєРѕР№ РїСЂРѕРґСѓРєС†РёРё</p>
+          <p>В© 2026 TerrasMarket. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+        <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

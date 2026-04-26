@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="Регистрация — TerrasMarket" />
+  <title>Регистрация — TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Главная</a>
+          <a href="products.html">Каталог</a>
+          <a href="about.html">О проекте</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">Продать</a>
+        <a href="user.html">Профиль</a>
+        <a class="cart-link" href="cart.html">Корзина</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>Регистрация</h2>
+          <p>Создайте аккаунт, чтобы продавать и покупать ещё быстрее.</p>
+        </div>
+      </section>
+
+      <section class="auth-shell">
+        <div class="auth-summary">
+          <div class="content-panel">
+            <h3>Преимущества аккаунта</h3>
+            <p>История заказов, избранное, уведомления и безопасные сделки.</p>
+          </div>
+          <article class="info-card">
+            <h3>Безопасность</h3>
+            <p>Данные защищаются по стандартам.</p>
+          </article>
+          <article class="info-card">
+            <h3>Поддержка</h3>
+            <p>Мы поможем с загрузкой товара и настройками магазина.</p>
+          </article>
+        </div>
+        <div class="form-card">
+          <form id="register-form">
+            <div class="form-group">
+              <label class="form-label" for="full-name">Полное имя</label>
+              <input class="form-input" id="full-name" name="fullName" type="text" placeholder="Введите имя" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" id="email" name="email" type="email" placeholder="example@mail.ru" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="password">Пароль</label>
+              <input class="form-input" id="password" name="password" type="password" placeholder="Придумайте пароль" required />
+            </div>
+            <div class="form-actions">
+              <button class="button primary" type="submit">Создать аккаунт</button>
+              <a class="button secondary" href="user.html">Уже есть аккаунт?</a>
+            </div>
+            <div class="form-notice"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>Маркетплейс для авторской продукции</p>
+          <p>© 2026 TerrasMarket. Все права защищены.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Главная</a>
+        <a href="products.html">Каталог</a>
+        <a href="about.html">О проекте</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

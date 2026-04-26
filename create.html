@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="Разместить товар — TerrasMarket" />
+  <title>Разместить товар — TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Главная</a>
+          <a href="products.html">Каталог</a>
+          <a href="about.html">О проекте</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">Продать</a>
+        <a href="user.html">Профиль</a>
+        <a class="cart-link" href="cart.html">Корзина</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>Продайте свой товар</h2>
+          <p>Добавьте карточку товара и начните получать заявки от покупателей.</p>
+        </div>
+      </section>
+
+      <section class="form-card">
+        <form id="create-form">
+          <div class="form-group">
+            <label class="form-label" for="title">Название товара</label>
+            <input class="form-input" id="title" name="title" type="text" placeholder="Введите название" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="price">Цена</label>
+            <input class="form-input" id="price" name="price" type="text" placeholder="0 ₽" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="description">Описание</label>
+            <textarea class="form-textarea" id="description" name="description" placeholder="Краткое описание товара"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="button primary" type="submit">Опубликовать</button>
+            <a class="button secondary" href="products.html">Отмена</a>
+          </div>
+          <div class="form-notice"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>Маркетплейс для авторской продукции</p>
+          <p>© 2026 TerrasMarket. Все права защищены.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Главная</a>
+        <a href="products.html">Каталог</a>
+        <a href="about.html">О проекте</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="page-title" content="РќР°СЃС‚СЂРѕР№РєРё вЂ” TerrasMarket" />
+  <title>РќР°СЃС‚СЂРѕР№РєРё вЂ” TerrasMarket</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a class="nav-logo" href="index.html">TerrasMarket</a>
+        <nav class="topnav">
+          <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+          <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+          <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <a class="button secondary nav-action" href="create.html">РџСЂРѕРґР°С‚СЊ</a>
+        <a href="user.html">РџСЂРѕС„РёР»СЊ</a>
+        <a class="cart-link" href="cart.html">РљРѕСЂР·РёРЅР°</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-head">
+        <div>
+          <h2>РќР°СЃС‚СЂРѕР№РєРё Р°РєРєР°СѓРЅС‚Р°</h2>
+          <p>РЈРїСЂР°РІР»СЏР№С‚Рµ РїСЂРѕС„РёР»РµРј, СѓРІРµРґРѕРјР»РµРЅРёСЏРјРё Рё Р±РµР·РѕРїР°СЃРЅРѕСЃС‚СЊСЋ.</p>
+        </div>
+        <button class="button secondary" data-toggle-theme>Р’РєР»СЋС‡РёС‚СЊ С‚С‘РјРЅСѓСЋ С‚РµРјСѓ</button>
+      </section>
+
+      <section class="auth-shell">
+        <div class="form-card">
+          <form id="settings-form">
+            <div class="form-group">
+              <label class="form-label" for="name">РРјСЏ</label>
+              <input class="form-input" id="name" name="name" type="text" value="РђРЅРЅР° РРІР°РЅРѕРІР°" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-input" id="email" name="email" type="email" value="anna@example.ru" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">РўРµР»РµС„РѕРЅ</label>
+              <input class="form-input" id="phone" name="phone" type="tel" value="+7 495 123-45-67" />
+            </div>
+            <div class="form-actions">
+              <button class="button primary" type="submit">РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ</button>
+              <a class="button secondary" href="user.html">РћС‚РјРµРЅРёС‚СЊ</a>
+            </div>
+            <div class="form-notice"></div>
+          </form>
+        </div>
+        <div class="settings-grid">
+          <article class="setting-card">
+            <h3>РЈРІРµРґРѕРјР»РµРЅРёСЏ</h3>
+            <p>РќР°СЃС‚СЂРѕР№С‚Рµ СЂР°СЃСЃС‹Р»РєРё Рё РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ Р·Р°РєР°Р·Р°С….</p>
+          </article>
+          <article class="setting-card">
+            <h3>Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ</h3>
+            <p>РР·РјРµРЅРёС‚Рµ РїР°СЂРѕР»СЊ Рё РІРєР»СЋС‡РёС‚Рµ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂРѕРІРµСЂРєРё.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="brand-mark">LM</div>
+        <div>
+          <p>РњР°СЂРєРµС‚РїР»РµР№СЃ РґР»СЏ Р°РІС‚РѕСЂСЃРєРѕР№ РїСЂРѕРґСѓРєС†РёРё</p>
+          <p>В© 2026 TerrasMarket. Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Р“Р»Р°РІРЅР°СЏ</a>
+        <a href="products.html">РљР°С‚Р°Р»РѕРі</a>
+        <a href="about.html">Рћ РїСЂРѕРµРєС‚Рµ</a>
+      </div>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
